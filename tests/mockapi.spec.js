@@ -18,6 +18,7 @@ test('Mock API response', async ({ page }) => {
     });
   });
 
+  
   await page.goto('https://example.com/users');
 
   // Check that mocked data appears

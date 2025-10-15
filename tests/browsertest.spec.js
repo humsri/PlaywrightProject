@@ -8,5 +8,6 @@ for (const browserType of [chromium, firefox, webkit]) {
     await page.goto('https://example.com');
     await expect(page).toHaveTitle(/Example/);
     await browser.close();
+    
   });
 }

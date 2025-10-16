@@ -9,5 +9,4 @@ test('custom screen size', async ({ browser }) => {
   const page = await context.newPage();
   await page.goto('https://example.com');
   await page.screenshot({ path: 'custom-view.png' });
-  
 });

@@ -1,5 +1,5 @@
-import { defineConfig, devices } from '@playwright/test';
-
+//import { defineConfig, devices } from '@playwright/test';
+const { defineConfig } = require ('@playwright/test');
 /**
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
